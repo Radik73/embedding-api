@@ -1,0 +1,64 @@
+# Компилированные файлы Python
+*.pyc
+*.pyo
+*.pyd
+
+# Директории кэша Python
+__pycache__/
+*/__pycache__/
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Файлы настроек окружения
+.env
+.env.*
+
+# Дистрибутивы и сборки
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Покрытие тестов и отчёты
+.coverage
+.coverage.*
+.cache/
+.tox/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+
+# Локальные базы данных
+*.sqlite
+*.sqlite3
+*.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Документация
+docs/_build/
+
+# Другие часто игнорируемые файлы
+*.swp
+*.swo
+*.bak
